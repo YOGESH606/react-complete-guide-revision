@@ -15,7 +15,7 @@ export const UseCallbackExample = () => {
 
   return (
     <div>
-      <button onClick={() => setCount(count + 1)}>count - {count}</button>
+      <button onClick={() => setCount(count + 1)}>Count - {count}</button>
       <Child person={person} addPerson={addPerson} />
     </div>
   );
